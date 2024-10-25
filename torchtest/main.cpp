@@ -7,6 +7,8 @@ int main () {
 
    torch::Tensor tensor = torch::rand({5, 5}, torch::kCUDA);
    std::cout << tensor << std::endl;
-   
+
+   std::cout << "Hello world" << std::endl;
+
    return 0;
 }
